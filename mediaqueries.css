@@ -1,0 +1,54 @@
+@media (max-width: 500px) {
+  footer .list {
+    display: initial;
+  }
+
+  section {
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+  }
+
+  .left,
+  .right {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .text,
+  .image {
+    width: 80vw;
+    height: 54vh;
+  }
+}
+
+@media (min-width: 500px) {
+  .header-top img {
+    width: 200px;
+  }
+
+  .header-main {
+    margin-top: 50px;
+  }
+
+  input {
+    width: 400px;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+
+@media (min-width: 900px) {
+  .header-top img {
+    margin: 20px;
+  }
+
+  .header-main {
+    margin-top: 50px;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+}

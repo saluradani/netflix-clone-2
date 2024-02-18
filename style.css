@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 20px;
+}
+
+datalist {
+  color: black;
+}
+
+body {
+  background-color: #000000;
+}
+
+/* ---- Header ---- */
+.header {
+  background-image: url(./Assets/background.webp);
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 10px solid rgb(43, 43, 43);
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top-right {
+  margin-right: 20px;
+}
+
+.header-top img {
+  width: 130px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20vh;
+  margin-top: 10vh;
+}
+
+.header-main h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1,
+.header-main p {
+  margin: 15px;
+}
+
+select,
+.signin-button {
+  height: 32px;
+  width: 75px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+
+input,
+select {
+  background-color: #1f1e1eb7;
+  border: 0.7px solid rgb(125, 121, 121);
+}
+
+button {
+  background-color: #cf0000;
+  border: 1px solid #d62020;
+}
+
+input {
+  width: 70%;
+  margin-bottom: 10px;
+  height: 50px;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px;
+}
+
+.submit-email {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+}
+
+input,
+select,
+button {
+  border-radius: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+section {
+  height: 100vh;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  border-top: 10px solid rgb(43, 43, 43);
+  border-bottom: 10px solid rgb(43, 43, 43);
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 25px;
+}
+
+.text h2,
+.text p {
+  text-align: left;
+}
+
+.text,
+.image {
+  width: 50vw;
+}
+
+.image img {
+  height: 60%;
+  width: 80%;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#search {
+  margin-bottom: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+footer {
+  border-top: 10px solid rgb(43, 43, 43);
+  padding-bottom: 50px;
+}
+
+footer p {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ul li {
+  margin: 20px;
+  list-style-type: none;
+  text-align: left;
+}
